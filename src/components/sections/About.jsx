@@ -46,15 +46,11 @@ export default function About() {
                 />
                 {/* Fallback shown only when image fails to load */}
                 <div
-                  className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-gradient-to-br from-[#111111] to-[#1a1a2e]"
+                  className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-[#111111] to-[#1a1a2e]"
                   style={{ display: 'none' }}
                 >
                   <div className="w-28 h-28 rounded-full bg-gradient-to-br from-[#00F5FF]/20 to-[#7C3AED]/20 border-2 border-[#00F5FF]/40 flex items-center justify-center">
                     <span className="text-5xl font-bold gradient-text font-outfit">T</span>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-white font-semibold font-outfit">Talha Obaidullah Afzal</p>
-                    <p className="text-[#00F5FF] text-sm font-inter">Full Stack Developer</p>
                   </div>
                 </div>
                 {/* Overlay gradient at bottom for name badge */}
